@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alishba Tufail Trading</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #222; color: white; text-align: center; padding: 1em; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    .container { padding: 20px; }
+    .product { border: 1px solid #ccc; padding: 15px; margin: 10px 0; }
+    .product h3 { margin-top: 0; }
+    .btn { background: green; color: white; padding: 10px; text-decoration: none; }
+  </style>
+</head>
+<body><header>
+  <h1>Alishba Tufail Trading</h1>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#affiliate">Affiliate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><div class="container">
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>Buy high-quality products and earn commission by referring others!</p>
+  </section>  <section id="products">
+    <h2>Products</h2>
+    <div class="product">
+      <h3>Product A</h3>
+      <p>Price: $100</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product">
+      <h3>Product B</h3>
+      <p>Price: $150</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+  </section>  <section id="affiliate">
+    <h2>Affiliate Program</h2>
+    <p>Share your referral link and earn 10% commission on every sale!</p>
+    <p><strong>Your referral link:</strong> www.alishbatrading.com?ref=yourname</p>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <textarea placeholder="Your Message" required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</div><footer>
+  <p>&copy; 2025 Alishba Tufail Trading</p>
+</footer></body>
+</html>
